@@ -11,7 +11,7 @@ function harmonikortf(){
   }
 
   sum = diziboyutu / sum
-  h1sonuc.innerHTML="<font color='red'>" + sum + "</font>";
+  h1sonuc.innerHTML="<font color='#dc3545'>" + sum + "</font>";
 	
 	
 	

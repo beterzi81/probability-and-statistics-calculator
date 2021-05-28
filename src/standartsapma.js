@@ -39,6 +39,6 @@ function islem1(ortalama,dizi) {
     const tut = aritOrt(ayp);
     const sonuc = islem1(tut,ayp);
  
-    h1sonuc.innerHTML="<font color='red'>" + sonuc + "</font>";
+    h1sonuc.innerHTML="<font color='#dc3545'>" + sonuc + "</font>";
  }
  

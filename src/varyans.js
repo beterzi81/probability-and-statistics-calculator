@@ -39,5 +39,5 @@ function hesapla() {
    const tut = aritOrt(ayp);
    const sonuc = islem1(tut,ayp);
    const ensonuc = sonuc*sonuc;
-   h1sonuc.innerHTML="<font color='red'>" + ensonuc + "</font>";
+   h1sonuc.innerHTML="<font color='#dc3545'>" + ensonuc + "</font>";
 }

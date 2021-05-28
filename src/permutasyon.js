@@ -35,7 +35,7 @@ function hesapla() {
     const sonuc = faktoriyel(permut1)/faktoriyel(fark);
 
     const ahmet = Math.round(sonuc);
-    h1sonuc.innerHTML="<font color='white'>" + ahmet + "</font>";
+    h1sonuc.innerHTML="<font color='#dc3545'>" + ahmet + "</font>";
     
 }
 

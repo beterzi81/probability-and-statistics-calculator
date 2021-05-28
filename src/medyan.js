@@ -28,7 +28,7 @@ function medyanf(){
 	nums = [...ayp].sort((a, b) => a - b);
 	const a = (diziboyutu % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2).toFixed(4);
 	*/
-	h1sonuc.innerHTML="<font color='red'>" + sonuc + "</font>";
+	h1sonuc.innerHTML="<font color='#dc3545'>" + sonuc + "</font>";
 	
 	
 }

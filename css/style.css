@@ -32,7 +32,104 @@ body {
     color: #7b0000 !important;
 }
 
-/* ---Buttons--- */
-.buttons {
-    color: green;
+
+/* Carousel */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background-repeat: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background: #000;
+    opacity: 0.3;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    top: 2rem;
+}
+
+.slider-btn {
+    margin-top: 30px;
+}
+
+.slider-btn .btn {
+    color: white;
+    border-radius: 10%;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.btn:hover {
+    background-color: #4ca193;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.slider-btn .btn-2 {
+    color: #00cdac;
+    background-color: white;
+}
+
+.slideh5 {
+    -webkit-text-stroke: 1px #fff;
+    color: #f68084;
+}
+
+.slidep {
+    -webkit-text-stroke: 0.5px #fff;
+    color: #a6c0fe;
+}
+
+/* İşlem */
+.h1text {
+    text-align: center;
+    color: #dc3545;
+    -webkit-text-stroke: 1px #f68084;
+    margin-bottom: 11vh;
+    margin-top: 5vh;
+}
+
+.formstyle {
+    width: 70% !important;
+    margin: auto;
+}
+
+.labeltext {
+    text-align: center;
+    color: #dc3545;
+    -webkit-text-stroke: 1px #f68084;
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+
+.buttonstyle {
+    margin-left: 47%;
 }

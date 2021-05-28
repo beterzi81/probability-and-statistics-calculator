@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,14 +12,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Olasılık | Aritmetik Ortalama</title>
+
+    <!-- Headings -->
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>İhtimaller Dahilinde | Aritmetik Ortalama</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light pt-2 pb-2">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Olasılık</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">İhtimaller
+                Dahilinde</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,7 +43,8 @@
                         <li><a class="dropdown-item" href="ortalamamutlaksapma.html">Ortalama Mutlak Sapma</a></li>
                         <li><a class="dropdown-item" href="degiskenkatsayisi.html">Değişken Katsayısı</a></li>
                         <li><a class="dropdown-item" href="harmonikortalama.html">Harmonik Ortalama</a></li>
-                        <li><a class="dropdown-item active" href="aritmetikortalama.html">Aritmetik Ortalama</a></li>
+                        <li><a class="dropdown-item active bg-danger text-light" href="aritmetikortalama.html">Aritmetik
+                                Ortalama</a></li>
                         <li><a class="dropdown-item" href="geometrikortalama.html">Geometrik Ortalama</a></li>
                         <li><a class="dropdown-item" href="kombinasyon.html">Kombinasyon</a></li>
                         <li><a class="dropdown-item" href="permutasyon.html">Permütasyon</a></li>
@@ -62,14 +68,14 @@
     <!-- Forms -->
     <form>
         <div class="mt-5">
-            <label for="exampleInputData" class="form-label">Veri Setini Giriniz</label>
-            <input type="text" class="form-control" id="InputDataAritmetik" aria-describedby="dataHelp">
+            <h1 class="labeltext">Veri Setini Giriniz</h1>
+            <input type="text" class="form-control formstyle" id="InputDataAritmetik" aria-describedby="dataHelp">
         </div>
-        <button type="button" onclick="calistir()" class="btn btn-danger mt-2">Hesapla</button>
-        
+        <button type="button" onclick="calistir()" class="btn btn-danger mt-2 buttonstyle">Hesapla</button>
+
     </form>
 
-    <h1 id="h1sonuc">Sonuç Buraya Çıkacak!</h1>
+    <h1 id="h1sonuc" class="h1text">Sonuç Buraya Çıkacak!</h1>
 
     <!-- Function JS -->
     <script src="./src/aritmetikjs.js"></script>

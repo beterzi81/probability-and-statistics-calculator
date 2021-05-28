@@ -37,5 +37,5 @@ function degiskenkatsayif() {
 
 	const a = ((sapma / ort) * 100);
 
-	h1sonuc.innerHTML="<font color='red'>" + a + "</font>";
+	h1sonuc.innerHTML="<font color='#dc3545'>" + a + "</font>";
 }

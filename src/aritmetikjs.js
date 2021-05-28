@@ -20,7 +20,7 @@ function calistir() {
 	toplam = toplam / diziboyutu;
 	
 
-	h1sonuc.innerHTML="<font color='red'>" + toplam + "</font>";
+	h1sonuc.innerHTML="<font color='#dc3545'>" + toplam + "</font>";
 
 
 

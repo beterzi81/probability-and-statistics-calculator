@@ -10,7 +10,7 @@ function geometrikortf() {
 	}
 
 	sum = Math.pow(sum, 1 / diziboyutu)
-	h1sonuc.innerHTML="<font color='red'>" + sum + "</font>";
+	h1sonuc.innerHTML="<font color='#dc3545'>" + sum + "</font>";
 
 
 

@@ -32,5 +32,5 @@ function modf() {
       }
     }
   }
-  h1sonuc.innerHTML="<font color='red'>" + gonder + "</font>";
+  h1sonuc.innerHTML="<font color='#dc3545'>" + gonder + "</font>";
 }
