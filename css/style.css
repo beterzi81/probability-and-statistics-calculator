@@ -1,0 +1,38 @@
+html {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ---Navbar--- */
+.navbar-light {
+    background: #f68084 !important;
+}
+
+.navbar-toggler {
+    background: #a14c4c !important;
+    border: 1px solid #a14c4c !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.active {
+    color: #7b0000 !important;
+}
+
+/* ---Buttons--- */
+.buttons {
+    color: green;
+}
